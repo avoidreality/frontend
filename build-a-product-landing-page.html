@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>RPG Board Games</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+   <style>
+
+   #header-img {
+
+     border: 3px solid #73AD21;
+     max-width: 500px;
+   max-height: 500px;
+   margin: 200px;
+
+   }
+
+   #nav-bar {
+     position: fixed;
+     top: 0;
+
+   }
+
+   #enter-email {
+     display: flex;
+     background-color: red;
+     flex-direction: column;
+   }
+
+   @media (max-width: 500px){
+     background-color: green;
+   }
+
+   </style>
+</head>
+<body>
+  <header id="header">
+   <img id="header-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goblins.net%2Ffiles%2Fstyles%2Fzoom%2Fpublic%2Fimages%2Fgame%2Fbgg%2Fdungeons-dragons-fantasy-adventure-board-game.jpg%3Fitok%3DK-Z6-dmg&f=1&nofb=1&ipt=5befcda67e310d4d5257cb5d0e066cbe381cdab501cf40dfba30fe8d3819b092&ipo=images" />
+   <nav id="nav-bar">
+      <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#games">Games</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+<li><a class="nav-link" href="#enter-email">Email</a></li>
+          </ul>
+
+   </nav>
+  </header>
+  <section id="features">
+  <h3>Features</h3>
+     <p>These are the features of this product. This product comes with a board, dice, and plastic figures.</p>
+  </section>
+  </br />
+  <br />
+  <section id="games">
+  <h3>Games</h3>
+  <p>Currently, we only offer Dungeon's and Dragons. Please see the following video for how to play.</p>
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/jT3FRzEJDp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+  <br />
+  <br />
+  <section id="pricing">
+  <h3>Pricing</h3>
+    <p>This video game costs $9.99</p>
+  </section>
+  <section id="enter-email">
+    <h3>Enter your email for RPG board game updates</h3>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+  </section>
+</body>
+</html>
